@@ -1,4 +1,36 @@
-# netlify-website-template
+# Boston PyLadies Website
+
+https://boston.pyladies.com/
+
+## Local Development
+
+1. Fork the pyladies-boston-website repo: Click "Fork". This creates an editable
+copy on your github account.
+2. Locally clone down the forked repo 
+    - `git clone <URL of forked repo>`
+3. Create a new branch with a new branch name, e.g. feature/updateREADME
+    - `git checkout -b feature/updateREADME`
+    - `git push -u origin feature/updateREADME`
+4. Spin up the webpage locally: 
+    - `python -m http.server`
+    - Defaults to port 8000, you can change by providing an additional integer for the desired port
+        - Go to http://localhost:8000
+        - Refresh the page to show changes to index.html
+        - "CTRL + C" to exit
+    - Note: Changes to CSS will require you to minify style.css and update
+    style.min.css. If you are using Visual Studio Code, you can download the 
+    minify extension.
+5. Make and Push changes to your branch
+    - Save changes
+    - `git status` to see the changed files
+    - `git add <file-name>` - adds the changed file to commit
+    - `git commit -m "feat(index): update chapter name"` - Add a relevant 
+    message for the change.
+    - `git push`
+6. Create a PR to the pyladies-boston-website repo
+    - Make sure to fill out the PR description
+
+# netlify-website-template Default Details
 
 Example of PyLadies Website theme powered by Netlify with [a standard pull request template](github.com/pyladies/netlify-website-template/PULL_REQUEST_TEMPLATE). You can preview the template [here](https://netlify-template-simple.netlify.app)
 
