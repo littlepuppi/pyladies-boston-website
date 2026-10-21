@@ -405,6 +405,9 @@ span.fa {
 
 .about-photos {
   margin-top: 20px;
+  margin-bottom: 0;
+  min-height: 0;
+  padding-bottom: 0;
 }
 
 .about-photo {
